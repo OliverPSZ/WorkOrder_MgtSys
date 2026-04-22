@@ -1,0 +1,5 @@
+Private Sub Workbook_Open()
+
+    RunPython ("import FactScanXW; FactScanXW.invoice_main()")
+
+End Sub
